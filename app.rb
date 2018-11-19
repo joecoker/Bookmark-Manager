@@ -1,4 +1,5 @@
 require 'sinatra/base'
+require_relative './lib/bookmark'
 
 class App < Sinatra::Base
   get '/' do
